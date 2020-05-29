@@ -119,13 +119,13 @@ class AdvancedJobs extends PluginBase{
 		$jobType = $this->getJobType($jobID);
 		$jobProgress = $this->getDefaultNextProgress($player);
 		if($jobType == "killer"){
-			return $jobProgress*3;
+			return 1;
 		}elseif($jobType == "wood-cutter"){
-			return $jobProgress*4;
+			return 1;
 		}elseif($jobType == "miner"){
-			return $jobProgress*4;
+			return 1;
 		}elseif($jobType == "builder"){
-			return $jobProgress*4;
+			return 1;
 		}
 	}
 
